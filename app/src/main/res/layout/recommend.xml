@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#3bbdfa">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:drawableLeft="@drawable/search"
+                android:paddingLeft="15dp"
+                android:text="  Search Industry"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:background="@drawable/car1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/transporticons" />
+
+                    <TextView
+                        android:id="@+id/carrentals"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img1"
+                        android:layout_centerInParent="true"
+                        android:text="car Rentals"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rl1"
+                android:background="@drawable/plane">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/airplane" />
+
+                    <TextView
+                        android:id="@+id/plane"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img2"
+                        android:layout_centerInParent="true"
+                        android:text="car Rentals"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rl2"
+                android:background="@drawable/images">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/airplane" />
+
+                    <TextView
+                        android:id="@+id/Grocery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img3"
+                        android:layout_centerInParent="true"
+                        android:text="Grocery"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rl1">
+
+            <RelativeLayout
+                android:id="@+id/rll1"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:background="@drawable/mechanic">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlimg1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/administrative_tools" />
+
+                    <TextView
+                        android:id="@+id/Reapair"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlimg1"
+                        android:layout_centerInParent="true"
+                        android:text="Repairs"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rll2"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rll1"
+                android:background="@drawable/chemistshop">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlimg2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/pill64" />
+
+                    <TextView
+                        android:id="@+id/chemist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlimg2"
+                        android:layout_centerInParent="true"
+                        android:text="Chemist"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rll3"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rll2"
+                android:background="@drawable/taxi">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlimg3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/taxi_64" />
+
+                    <TextView
+                        android:id="@+id/texi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlimg3"
+                        android:layout_centerInParent="true"
+                        android:text="Taxi"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rl2">
+
+            <RelativeLayout
+                android:id="@+id/rlll1"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:background="@drawable/sunday">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rllimg1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/smartphone" />
+
+                    <TextView
+                        android:id="@+id/mobilerecharge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rllimg1"
+                        android:layout_centerInParent="true"
+                        android:text="Mobile Recharge"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlll2"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rlll1"
+                android:background="@drawable/education">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rllimg2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/edit" />
+
+                    <TextView
+                        android:id="@+id/education"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rllimg2"
+                        android:layout_centerInParent="true"
+                        android:text="Education"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlll3"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rlll2"
+                android:background="@drawable/shopping">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rllimg3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/restaurant" />
+
+                    <TextView
+                        android:id="@+id/shopping"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rllimg3"
+                        android:layout_centerInParent="true"
+                        android:text="Shopping"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Rl4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rl3">
+
+            <RelativeLayout
+                android:id="@+id/rllll1"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:background="@drawable/skincareimage">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlllimg1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/smartphone" />
+
+                    <TextView
+                        android:id="@+id/Beautycare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlllimg1"
+                        android:layout_centerInParent="true"
+                        android:text="Beauty care"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rllll2"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rllll1"
+                android:background="@drawable/res">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlllimg2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/restaurant" />
+
+                    <TextView
+                        android:id="@+id/restaurant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlllimg2"
+                        android:layout_centerInParent="true"
+                        android:text="Restaurants"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rllll3"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_toRightOf="@+id/rllll2"
+                android:background="@drawable/docter">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B3585858">
+
+                    <ImageView
+                        android:id="@+id/rlllimg3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/doctor64" />
+
+                    <TextView
+                        android:id="@+id/docter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlllimg3"
+                        android:layout_centerInParent="true"
+                        android:text="Doctor"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
